@@ -1,0 +1,7 @@
+#AnchorPane JFXButton {
+    -fx-background-radius :12;
+    -fx-background-color : blue;
+    -fx-text-fill: white;
+    -fx-border-width: 2;
+    -fx-border-color: #AAD2F1;
+}

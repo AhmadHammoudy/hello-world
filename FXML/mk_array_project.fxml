@@ -10,7 +10,7 @@
 <?import javafx.scene.layout.VBox?>
 <?import javafx.scene.text.Font?>
 
-<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mkarrayproject.Mk_array_projectController">
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" stylesheets="@Mk_Array_Project_CSC.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.mycompany.mkarrayproject.Mk_array_projectController">
    <children>
       <VBox layoutX="15.0" layoutY="14.0" prefHeight="373.0" prefWidth="571.0" AnchorPane.bottomAnchor="13.0" AnchorPane.leftAnchor="15.0" AnchorPane.rightAnchor="14.0" AnchorPane.topAnchor="14.0">
          <padding>
@@ -64,51 +64,7 @@
             </HBox>
             <HBox nodeOrientation="RIGHT_TO_LEFT" prefHeight="48.0" prefWidth="551.0">
                <children>
-                  <JFXButton prefHeight="46.0" prefWidth="53.0" ripplerFill="#1aff00" text="+">
-                     <font>
-                        <Font name="System Bold" size="15.0" />
-                     </font>
-                     <padding>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </padding>
-                     <HBox.margin>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </HBox.margin>
-                  </JFXButton>
-                  <JFXButton prefHeight="46.0" prefWidth="53.0" ripplerFill="#1aff00" text="-">
-                     <font>
-                        <Font name="System Bold" size="15.0" />
-                     </font>
-                     <padding>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </padding>
-                     <HBox.margin>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </HBox.margin>
-                  </JFXButton>
-                  <JFXButton prefHeight="46.0" prefWidth="53.0" ripplerFill="#1aff00" text="*">
-                     <font>
-                        <Font name="System Bold" size="15.0" />
-                     </font>
-                     <padding>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </padding>
-                     <HBox.margin>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </HBox.margin>
-                  </JFXButton>
-                  <JFXButton prefHeight="46.0" prefWidth="53.0" ripplerFill="#1aff00" text="/">
-                     <font>
-                        <Font name="System Bold" size="15.0" />
-                     </font>
-                     <padding>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </padding>
-                     <HBox.margin>
-                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
-                     </HBox.margin>
-                  </JFXButton>
-                  <JFXButton prefHeight="46.0" prefWidth="101.0" ripplerFill="#1aff00" text="ترتيب تصاعدي">
+                  <JFXButton prefHeight="50.0" prefWidth="100.0" ripplerFill="#1aff00" text="أكبر عنصر">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>
@@ -116,7 +72,7 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </JFXButton>
-                  <JFXButton prefHeight="46.0" prefWidth="101.0" ripplerFill="#1aff00" text="ترتيب تنازلي">
+                  <JFXButton prefHeight="50.0" prefWidth="100.0" ripplerFill="#1aff00" text="أصغر عنصر">
                      <font>
                         <Font name="System Bold" size="15.0" />
                      </font>
@@ -124,22 +80,30 @@
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </JFXButton>
-                  <JFXButton prefHeight="46.0" prefWidth="56.0" ripplerFill="#1aff00" text="بحث">
+                  <JFXButton prefHeight="50.0" prefWidth="120.0" ripplerFill="#1aff00" text="عدد الأعداد الزوجية">
                      <font>
-                        <Font name="System Bold" size="15.0" />
+                        <Font name="System Bold" size="13.0" />
                      </font>
                      <padding>
                         <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
                   </JFXButton>
-                  <JFXTextField alignment="CENTER" prefHeight="40.0" prefWidth="76.0">
+                  <JFXButton prefHeight="50.0" prefWidth="120.0" ripplerFill="#1aff00" text="عدد الأعداد الأولية">
                      <font>
-                        <Font size="20.0" />
+                        <Font name="System Bold" size="13.0" />
                      </font>
                      <padding>
-                        <Insets bottom="5.0" left="5.0" right="5.0" top="5.0" />
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
                      </padding>
-                  </JFXTextField>
+                  </JFXButton>
+                  <JFXButton prefHeight="50.0" prefWidth="120.0" ripplerFill="#1aff00" text="عدد العناصر أكبر من">
+                     <font>
+                        <Font name="System Bold" size="13.0" />
+                     </font>
+                     <padding>
+                        <Insets bottom="2.0" left="2.0" right="2.0" top="2.0" />
+                     </padding>
+                  </JFXButton>
                </children>
                <VBox.margin>
                   <Insets bottom="5.0" />
@@ -150,7 +114,7 @@
                   <Insets bottom="5.0" />
                </VBox.margin>
                <children>
-                  <JFXTextArea fx:id="txtResult" nodeOrientation="RIGHT_TO_LEFT" prefHeight="152.0" prefWidth="551.0" />
+                  <JFXTextArea fx:id="txtResult" nodeOrientation="RIGHT_TO_LEFT" prefHeight="152.0" prefWidth="551.0" promptText="مكان عرض النتيجة" />
                </children>
             </HBox>
          </children>
